@@ -2,7 +2,9 @@
 
 # MetaModule Documentation [docs.metamodule.org](http://docs.metamodule.org)
 
-
+pisząc książkę o hipermodularyzacji musiałem stworzyć specyfikację metamodułów, które są
+specyfikacją czegoś co da się określić, czyli procesu, usługi, oprogramowania, roli w zespole...
+to taka cyfrowa reprezentacja definicji modelu modułu
 
 
 ## install requirements
