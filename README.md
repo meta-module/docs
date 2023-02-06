@@ -9,7 +9,7 @@ Gdy już zdefiniujemy organizację jako sieć metamodułów, to będziemy mieli 
 
 [Cyfrowy bliźniak – 3 przykłady użycia w logistyce - Mecalux.pl](https://www.mecalux.pl/blog/cyfrowy-blizniak-przyklady)
 
-Korzyści z symulacji organizacji na wypadek różnych scenariuszy, pozwalając przewidywać konsekwencje aktualnej inkonfiguracji organizacji i infrastruktury co daje możliwość zwiększenia jakości usług.
+Korzyści z symulacji organizacji na wypadek różnych scenariuszy, pozwalają przewidywać konsekwencje aktualnej konfiguracji organizacji i infrastruktury co daje możliwość zwiększenia jakości usług.
 
 
 ## install requirements
