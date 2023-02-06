@@ -1,0 +1,45 @@
+{
+  "validator": [
+    "https://requirements.metamodule.org/1.0.1",
+    "https://definition.metamodule.org/1.0.1",
+    "https://lifecycle.metamodule.org/1.0.1"
+  ],
+
+  "generator": {
+    "implementation": "https://imeplementation.metamodule.org/1.0.1",
+    "test": "https://environment.metamodule.org/1.0.1",
+    "lifecycle": "https://environment-lifecycle.metamodule.org/1.0.1"
+  },
+
+  "definition": {
+    "name": "Environment for running tensorflow python application",
+
+    "problem": "generate data to excel report about all invoices in selected folder",
+    "solution": "convert PDF file to json data over script based on tensorflow",
+
+    "type": "api",
+    "version": "1.0.0",
+    "author": "",
+    "license": "",
+    "website": "environment.metamodules.org",
+    "git": "https://github.com/meta-modules/ocr-pdf.git"
+  },
+
+  "lifecycle": {
+    "packages": {
+      "nodejs": "17",
+      "mariadb": "5",
+      "docker": "https://hub.docker.com/r/andrewmackrodt/nodejs"
+    },
+    "config": {
+      "username": "test",
+      "path": "/home/test",
+      "data": "storage",
+      "settings": ".config"
+    },
+    "monitoring": {
+      "latency": "1ms",
+      "availability": "90%"
+    }
+  }
+}

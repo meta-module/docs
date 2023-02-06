@@ -19,6 +19,7 @@ py validation.py
 
 Example metamodule in json format with schema definition, schema validation, and dependencies with inharitences as url.
 
+file: [metamodule/environment.json](metamodule/environment.json)
 ```json
 {
   "validator": [
@@ -65,6 +66,7 @@ Example metamodule in json format with schema definition, schema validation, and
     }
   }
 }
+
 ```
 
 
@@ -80,6 +82,43 @@ It includes the nodejs, mariadb, and docker versions, username, path, data, and 
 ## schema definition with pattern validation for that json
 
 
+```json
+{
+  "type": "object",
+  "properties": {
+    "validator": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "generator": {
+      "type": "object",
+      "properties": {
+        "implementation": {
+          "type": "string"
+        },
+        "test": {
+          "type": "string"
+        },
+        "lifecycle": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "implementation",
+        "test",
+        "lifecycle"
+      ]
+    },
+    "definition": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+```
+more in file: [schema/environment.json](schema/environment.json)
 
 
 ## How the metamodule json specification can help in software development?

@@ -1,0 +1,146 @@
+{
+  "type": "object",
+  "properties": {
+    "validator": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "generator": {
+      "type": "object",
+      "properties": {
+        "implementation": {
+          "type": "string"
+        },
+        "test": {
+          "type": "string"
+        },
+        "lifecycle": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "implementation",
+        "test",
+        "lifecycle"
+      ]
+    },
+    "definition": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "problem": {
+          "type": "string"
+        },
+        "solution": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "website": {
+          "type": "string"
+        },
+        "git": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "problem",
+        "solution",
+        "type",
+        "version",
+        "author",
+        "license",
+        "website",
+        "git"
+      ]
+    },
+    "lifecycle": {
+      "type": "object",
+      "properties": {
+        "packages": {
+          "type": "object",
+          "properties": {
+            "nodejs": {
+              "type": "string"
+            },
+            "mariadb": {
+              "type": "string"
+            },
+            "docker": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "nodejs",
+            "mariadb",
+            "docker"
+          ]
+        },
+        "config": {
+          "type": "object",
+          "properties": {
+            "username": {
+              "type": "string"
+            },
+            "path": {
+              "type": "string"
+            },
+            "data": {
+              "type": "string"
+            },
+            "settings": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "username",
+            "path",
+            "data",
+            "settings"
+          ]
+        },
+        "monitoring": {
+          "type": "object",
+          "properties": {
+            "latency": {
+              "type": "string"
+            },
+            "availability": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "latency",
+            "availability"
+          ]
+        }
+      },
+      "required": [
+        "packages",
+        "config",
+        "monitoring"
+      ]
+    }
+  },
+  "required": [
+    "validator",
+    "generator",
+    "definition",
+    "lifecycle"
+  ]
+}
