@@ -3,19 +3,25 @@
 # MetaModule Documentation [docs.metamodule.org](http://docs.metamodule.org)
 
 
-## Start Example
 
+
+## install requirements
 The requirements can be loaded into the shell by using the pip command.
 For example, to install the requirements listed in the requirements.txt file, run the following command:
 
 ```bash
 pip install -r requirements.txt
 chmod +x validation.py
+```
+
+## Start Example
+
+```bash
 py validation.py
 ```
 
 
-## How it works
+## How it works ?
 
 Example metamodule in json format with schema definition, schema validation, and dependencies with inharitences as url.
 
@@ -165,8 +171,18 @@ and improve the overall software development process.
 
 
 
+## TODO:
 
-## Install
++ metamodule in shell in python
++ validation with many schemas
++ create json section based on generator
++ prepare examples for:
+  + schema
+  + validator
+  + generator
+
+
+## Start using MetaModule in shell with your project
 
 ```bash
 curl http://download.metamodule.org
