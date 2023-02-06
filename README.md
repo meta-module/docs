@@ -4,7 +4,12 @@
 
 pisząc książkę o hipermodularyzacji musiałem stworzyć specyfikację metamodułów, które są
 specyfikacją czegoś co da się określić, czyli procesu, usługi, oprogramowania, roli w zespole...
-to taka cyfrowa reprezentacja definicji modelu modułu
+to taka cyfrowa reprezentacja definicji modelu modułu.
+Gdy już zdefiniujemy organizację jako sieć metamodułów, to będziemy mieli cyfrową reprezentację, tzw. cyfrowego bliżniaka: digital twin
+
+[Cyfrowy bliźniak – 3 przykłady użycia w logistyce - Mecalux.pl](https://www.mecalux.pl/blog/cyfrowy-blizniak-przyklady)
+
+Korzyści z symulacji organizacji na wypadek różnych scenariuszy, pozwalając przewidywać konsekwencje aktualnej inkonfiguracji organizacji i infrastruktury co daje możliwość zwiększenia jakości usług.
 
 
 ## install requirements
