@@ -133,7 +133,47 @@ It includes the nodejs, mariadb, and docker versions, username, path, data, and 
 ```
 more in file: [schema/environment.json](schema/environment.json)
 
-
+example of validation for expected data for a GPT
+```
+"expect": [
+        {
+            "name": "model",
+            "type": "select",
+            "label": "Model",
+            "required": true
+        },
+        {
+            "name": "prompt",
+            "type": "text",
+            "label": "Prompt"
+        },
+        {
+            "name": "max_tokens",
+            "type": "number",
+            "label": "Max Tokens"
+        },
+        {
+            "name": "temperature",
+            "type": "number",
+            "label": "Temperature"
+        },
+        {
+            "name": "top_p",
+            "type": "number",
+            "label": "Top p"
+        },
+        {
+            "name": "n_completions",
+            "type": "number",
+            "label": "N"
+        },
+        {
+            "name": "echo",
+            "type": "boolean",
+            "label": "Echo"
+        }
+    ]
+```
 ## How the metamodule json specification can help in software development?
 
 The metamodule json specification can help in software development by providing a unified language for
