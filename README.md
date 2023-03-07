@@ -11,6 +11,13 @@ Gdy już zdefiniujemy organizację jako sieć metamodułów, to będziemy mieli 
 
 Korzyści z symulacji organizacji na wypadek różnych scenariuszy, pozwalają przewidywać konsekwencje aktualnej konfiguracji organizacji i infrastruktury co daje możliwość zwiększenia jakości usług.
 
+## TODO:
+
++ generowanie grafów połączeń
++ tworzenie mapy modułów
++ łączenie innych istniejących modułów poprzez generator (root)
++ tworzenie zapytanie SQL na całym dysku/użytkowniku github
+
 
 ## install requirements
 The requirements can be loaded into the shell by using the pip command.
