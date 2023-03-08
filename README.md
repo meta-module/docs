@@ -19,6 +19,12 @@ Korzyści z symulacji organizacji na wypadek różnych scenariuszy, pozwalają p
 + tworzenie zapytanie SQL na całym dysku/użytkowniku github
 
 
+## graphQL
+
+https://cloud.dgraph.io
+
+https://nameless-brook-400255.eu-central-1.aws.cloud.dgraph.io/graphql
+
 ## install requirements
 The requirements can be loaded into the shell by using the pip command.
 For example, to install the requirements listed in the requirements.txt file, run the following command:
