@@ -25,6 +25,11 @@ https://cloud.dgraph.io
 
 https://nameless-brook-400255.eu-central-1.aws.cloud.dgraph.io/graphql
 
+website:linkedin -> dane:json -> informacje:contact
+
+informacje:contact -> dane:html -> website:footer
+
+
 ## install requirements
 The requirements can be loaded into the shell by using the pip command.
 For example, to install the requirements listed in the requirements.txt file, run the following command:
