@@ -2,35 +2,40 @@
 
 # MetaModule Documentation [docs.metamodule.org](http://docs.metamodule.org)
 
-pisząc książkę o hipermodularyzacji musiałem stworzyć specyfikację metamodułów, które są
-specyfikacją czegoś co da się określić, czyli procesu, usługi, oprogramowania, roli w zespole...
-to taka cyfrowa reprezentacja definicji modelu modułu.
-Gdy już zdefiniujemy organizację jako sieć metamodułów, to będziemy mieli cyfrową reprezentację, tzw. cyfrowego bliżniaka: digital twin
+During writing a book on hypermodularisation, I had to create a specification of metamodules, which are a
+specification of something that can be defined, i.e. a process, a service, a software, a role in a team....
+it's such a digital representation of the definition of a module model.
+Once we define the organisation as a network of metamodules, then we have a digital representation, a so-called digital twin: the digital twin
 
 [Cyfrowy bliźniak – 3 przykłady użycia w logistyce - Mecalux.pl](https://www.mecalux.pl/blog/cyfrowy-blizniak-przyklady)
 
-Korzyści z symulacji organizacji na wypadek różnych scenariuszy, pozwalają przewidywać konsekwencje aktualnej konfiguracji organizacji i infrastruktury co daje możliwość zwiększenia jakości usług.
+The benefits of simulating an organisation in the event of various scenarios, allows the consequences of the current organisation and infrastructure configuration to be anticipated, which provides the opportunity to increase service quality.
 
 ## TODO:
 
-+ generowanie grafów połączeń
-+ tworzenie mapy modułów
-+ łączenie innych istniejących modułów poprzez generator (root)
-+ tworzenie zapytanie SQL na całym dysku/użytkowniku github
-
++ generation of connection graphs
++ creation of module map
++ linking other existing modules via generator (root)
++ creating a SQL query on the whole disk/user github
++ 
 
 ## graphQL
 
-https://cloud.dgraph.io
++ [https://cloud.dgraph.io](https://cloud.dgraph.io)
 
-https://nameless-brook-400255.eu-central-1.aws.cloud.dgraph.io/graphql
-
-website:linkedin -> dane:json -> informacje:contact
-
-informacje:contact -> dane:html -> website:footer
++ [https://nameless-brook-400255.eu-central-1.aws.cloud.dgraph.io/graphql](https://nameless-brook-400255.eu-central-1.aws.cloud.dgraph.io/graphql)
 
 
-## install requirements
+```
+website:linkedin -> data:json -> informacje:contact
+```
+
+```
+information:contact -> data:html -> website:footer
+```
+
+## install requirements:
+
 The requirements can be loaded into the shell by using the pip command.
 For example, to install the requirements listed in the requirements.txt file, run the following command:
 
@@ -235,8 +240,10 @@ and improve the overall software development process.
 
 
 
+---
 
-## TODO:
+
+# TODO:
 
 + metamodule in shell in python
 + validation with many schemas
