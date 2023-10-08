@@ -411,6 +411,36 @@ mm create generator "definition" "http://lifecycle.dsdasdadas.org"
 
 
 
+## Modularity and Monorepo
+
++ [All You Always Wanted to Know About Monorepo But Were Afraid To Ask - Tomas Votruba](https://tomasvotruba.com/blog/2019/10/28/all-you-always-wanted-to-know-about-monorepo-but-were-afraid-to-ask/)
+
+Monorepo vs. Multirepo
+Single-repo or split-repo?
+
+Monorepo is split into many single-repos, e.g. Symfony/Symfony is split into Symfony/Console, Symfony/Validator etc. Each single-repo repository is read-only. You can change its code via pull-request to the monorepo.
+Many-repo
+
+The other approach to manage multiple repositories. 1 package = 1 own repository. Each package has it's own development, tagging and even maintainers. E.g. Doctrine 2 or Nette 2.
+Monolith
+
+Monolith ≠ monorepo. Monolith is huge amount of coupled code of 1 application that is hell to maintain.
+Why is Monorepo so Awesome?
+
++ Simplified organization
++ Easy to coordinate changes across modules.
++ Simplified dependencies
++ Single lint, build, test and release process
+
+Tooling
++ Single place to report issues
++ Cross-project changes
++ Tests across modules are run together → finds bugs that touch multiple modules easier
+
+These are cherry-picked reasons from legendary Advantages of Monolithic Version Control. Read it to get deeper insight.
+
+
+
 ---
 
 + [edit](https://github.com/meta-module/docs/blob/main/README.md)
